@@ -23,7 +23,7 @@ def how_many_rolls(num_rolls: int, dice: str) -> list[int]:
 
 try:
     num_rolls = int(input("How many rolls? "))
-    dice_type = input("What kind of dice? (e.g., D4, D6, D8, D10, D12, D20) ")
+    dice_type = input("What kind of dice? (e.g. D3, D4, D6, D8, D10, D12, D20, D100) ")
     result = how_many_rolls(num_rolls, dice_type)
     print(f'Throw result {dice_type}: {result}')
 except ValueError:
