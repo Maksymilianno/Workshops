@@ -27,4 +27,4 @@ try:
     result = how_many_rolls(num_rolls, dice_type)
     print(f'Throw result {dice_type}: {result}')
 except ValueError:
-    print("Error")
+    print("Error!")
